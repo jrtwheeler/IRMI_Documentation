@@ -51,13 +51,17 @@ const config = {
           src: "img/docusaurus.png",
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documentation',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Documentation',
+          // },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            "label": "Documentation",
+            "to": "docs"
+          },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
