@@ -51,13 +51,6 @@ const config = {
           src: "img/docusaurus.png",
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Documentation',
-          // },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             "label": "Documentation",
             "to": "docs"
