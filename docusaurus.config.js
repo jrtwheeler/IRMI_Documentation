@@ -60,6 +60,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://irmi.zendesk.com/hc/en-us',
+            label: 'Zendesk',
+            position: 'right',
+          },
         ],
       },
       footer: {
