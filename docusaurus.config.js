@@ -28,12 +28,6 @@ const config = {
           // Please change this to your repo.
           editUrl: 'https://https://github.com/jrtwheeler/IRMI_Doc_Site',
         },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   editUrl:
-        //     'https://https://github.com/jrtwheeler/IRMI_Doc_Site',
-        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -52,13 +46,8 @@ const config = {
         },
         items: [
           {
-            "label": "Learning",
+            "label": "Documentation",
             "to": "docs"
-          },
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
           },
           {
             href: 'https://irmi.zendesk.com/hc/en-us',
@@ -71,44 +60,23 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Docs",
+            title: "IRMI Sites",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "IRMI Online",
+                label: "Legacy IRMI Online",
                 href: "https://www.irmi.com",
               },
               {
                 label: "Captive",
-                href: "https://www.https://www.captive.com/",
+                href: "https://www.captive.com/",
               },
               {
                 label: "Twitter",
                 href: "https://twitter.com/IRMIowl",
               },
             ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
+          }
+          // Add another json object here to add another column
         ],
         copyright: `Copyright © 2000-${new Date().getFullYear()} International Risk Management Institute, Inc. (IRMI). All rights reserved.`,
       },
