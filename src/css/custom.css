@@ -6,12 +6,12 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #7AB2B9;
-  --ifm-color-primary-dark: #80706F;
-  --ifm-color-primary-darker: #989A9C;
+  --ifm-color-primary: #7ab2b9;
+  --ifm-color-primary-dark: #80706f;
+  --ifm-color-primary-darker: #989a9c;
   --ifm-color-primary-darkest: #8d9092;
-  --ifm-color-primary-light: #F9F9F8;
-  --ifm-color-primary-lighter: #80706F;
+  --ifm-color-primary-light: #f9f9f8;
+  --ifm-color-primary-lighter: #80706f;
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
 }
@@ -24,14 +24,14 @@
 }
 
 .note {
-  background-color: #E1F5FE;
+  background-color: #e1f5fe;
   padding: 10px 10px 10px 20px;
 }
 
 .note::before {
-  content: '★ Note: ';
+  content: "★ ";
 }
 
-html[data-theme='dark'] .docusaurus-highlight-code-line {
+html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
