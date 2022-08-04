@@ -26,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://https://github.com/jrtwheeler/IRMI_Doc_Site',
+          // editUrl: 'https://https://github.com/jrtwheeler/IRMI_Doc_Site',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
