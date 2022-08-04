@@ -24,7 +24,12 @@
 }
 
 .note {
-  background-color: aqua;
+  background-color: #E1F5FE;
+  padding: 10px 10px 10px 20px;
+}
+
+.note::before {
+  content: '★ Note: ';
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
