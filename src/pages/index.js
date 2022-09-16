@@ -20,13 +20,6 @@ function HomepageHeader() {
             Training Documentation
           </Link>
         </div>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/faq">
-            FAQ
-          </Link>
-        </div>
       </div>
     </header>
   );
