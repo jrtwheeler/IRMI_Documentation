@@ -32,11 +32,11 @@ function HomepageHeader() {
             </div>
           </div>
           <div class="col">
-            <iframe
+            {/* <iframe
               src={
                 `https://webchat.botframework.com/embed/${process.env.REACT_APP_CHATBOT_SECRET}`
               }
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>
