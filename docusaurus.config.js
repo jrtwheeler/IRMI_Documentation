@@ -11,11 +11,11 @@ const config = {
   title: "IRMI Learning",
   tagline: "Learning center for internal processes",
   url: 'https://your-docusaurus-test-site.com',
-  customFields: {
-    // Put your custom environment here
-    first_key: process.env.REACT_APP_CHATBOT_SECRET_ONE,
-    second_key: process.env.REACT_APP_CHATBOT_SECRET_TWO,
-  },
+  // customFields: {
+  //   // Put your custom environment here
+  //   first_key: process.env.REACT_APP_CHATBOT_SECRET_ONE,
+  //   second_key: process.env.REACT_APP_CHATBOT_SECRET_TWO,
+  // },
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
