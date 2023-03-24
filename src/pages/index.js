@@ -6,7 +6,8 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const { siteConfig: {customFields}, } = useDocusaurusContext();
+  // const { siteConfig: {customFields}, } = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
