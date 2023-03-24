@@ -33,7 +33,7 @@ function HomepageHeader() {
           <div class="col">
             <iframe
               src={
-                `https://webchat.botframework.com/embed/${customFields.first_key}?s=${customFields.second_key}`
+                `https://webchat.botframework.com/embed/${siteConfig.customFields.first_key}?s=${siteConfig.customFields.second_key}`
               }
             ></iframe>
           </div>
