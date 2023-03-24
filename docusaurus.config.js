@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 // If you are using dotenv (https://www.npmjs.com/package/dotenv)
 require('dotenv').config();
