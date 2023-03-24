@@ -6,7 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
+  const { siteConfig: {customFields}, } = useDocusaurusContext();
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
@@ -32,7 +32,7 @@ function HomepageHeader() {
           <div class="col">
             <iframe
               src={
-                `https://webchat.botframework.com/embed/${process.env.REACT_APP_CHATBOT_SECRET_ONE}?s=${process.env.REACT_APP_CHATBOT_SECRET_TWO}`
+                `https://webchat.botframework.com/embed/${customFields.first_key}?s=${customFields.second_key}`
               }
             ></iframe>
           </div>

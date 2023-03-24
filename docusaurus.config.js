@@ -1,5 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+// If you are using dotenv (https://www.npmjs.com/package/dotenv)
+require('dotenv').config();
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -9,6 +11,11 @@ const config = {
   title: "IRMI Learning",
   tagline: "Learning center for internal processes",
   url: 'https://your-docusaurus-test-site.com',
+  customFields: {
+    // Put your custom environment here
+    first_key: process.env.REACT_APP_CHATBOT_SECRET_ONE,
+    second_key: process.env.REACT_APP_CHATBOT_SECRET_TWO,
+  },
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
