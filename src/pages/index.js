@@ -31,11 +31,11 @@ function HomepageHeader() {
             </div>
           </div>
           <div class="col">
-            <iframe
+            {/* <iframe
               src={
                 "https://webchat.botframework.com/embed/JimVALUEONE?s=JimVALUETWO"
               }
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
       </div>
