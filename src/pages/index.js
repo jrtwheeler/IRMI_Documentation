@@ -22,12 +22,12 @@ function HomepageHeader() {
               <Link className="button button--secondary button--lg" to="/docs">
                 Docs
               </Link>
-              <Link
+              {/* <Link
                 className="button button--secondary button--lg"
-                to="/docs/faq"
+                to="/docs/navigating-irmis Documentation"
               >
                 FAQs
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div class="col">
