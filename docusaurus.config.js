@@ -13,8 +13,8 @@ const config = {
   url: 'https://your-docusaurus-test-site.com',
   customFields: {
     // Put your custom environment here
-    first_key: process.env.REACT_APP_CHATBOT_SECRET_ONE,
-    second_key: process.env.REACT_APP_CHATBOT_SECRET_TWO,
+    first_key: "JimVALUEONE",
+    second_key: "JimVALUETWO",
   },
   baseUrl: "/",
   onBrokenLinks: "throw",
