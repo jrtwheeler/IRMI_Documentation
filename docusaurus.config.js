@@ -1,7 +1,7 @@
 // @ts-nocheck
 // Note: type annotations allow type checking and IDEs autocompletion
 // If you are using dotenv (https://www.npmjs.com/package/dotenv)
-require('dotenv').config();
+// require('dotenv').config();
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
