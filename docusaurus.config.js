@@ -31,15 +31,15 @@ const config = {
     locales: ['en'],
   },
 
-  themes: [
-    // ... Your other themes.
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({
-        hashed: true,
-      }),
-    ],
-  ],
+  // themes: [
+  //   // ... Your other themes.
+  //   [
+  //     require.resolve("@easyops-cn/docusaurus-search-local"),
+  //     ({
+  //       hashed: true,
+  //     }),
+  //   ],
+  // ],
 
   presets: [
     [
