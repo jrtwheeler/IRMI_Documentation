@@ -43,7 +43,6 @@ const config = {
   ],
 
   plugins: [
-    // ...
     '@aldridged/docusaurus-plugin-lunr'
   ],
 
