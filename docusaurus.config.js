@@ -3,8 +3,8 @@
 // If you are using dotenv (https://www.npmjs.com/package/dotenv)
 // require('dotenv').config();
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+// const lightCodeTheme = require('prism-react-renderer/themes/github');
+// const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -95,10 +95,10 @@ const config = {
         ],
         copyright: `Copyright © 2000-${new Date().getFullYear()} International Risk Management Institute, Inc. (IRMI). All rights reserved.`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
+      // prism: {
+      //   theme: lightCodeTheme,
+      //   darkTheme: darkCodeTheme,
+      // },
     }),
 };
 
