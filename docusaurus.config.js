@@ -42,10 +42,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    '@aldridged/docusaurus-plugin-lunr'
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
