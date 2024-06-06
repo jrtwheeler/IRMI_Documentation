@@ -1,8 +1,7 @@
-// @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
+// @ts-nocheck
+// Note: type annotations allow type checking and IDEs autocompletion
+// If you are using dotenv (https://www.npmjs.com/package/dotenv)
+// require('dotenv').config();
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -24,22 +23,7 @@ const config = {
   organizationName: "IRMI", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-
-  themes: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({
-        hashed: true,
-      }),
-    ],
-  ],
+   
 
   presets: [
     [
@@ -101,7 +85,7 @@ const config = {
           }
           // Add another json object here to add another column
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © 2000-${new Date().getFullYear()} International Risk Management Institute, Inc. (IRMI). All rights reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
@@ -110,4 +94,4 @@ const config = {
     }),
 };
 
-export default config;
+module.exports = config;
