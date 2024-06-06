@@ -23,15 +23,7 @@ const config = {
   organizationName: "IRMI", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
 
-  themes: [
-    // ... Your other themes.
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({
-        hashed: true,
-      }),
-    ],
-  ], 
+   
 
   presets: [
     [
