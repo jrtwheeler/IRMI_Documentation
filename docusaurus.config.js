@@ -3,14 +3,15 @@
 // If you are using dotenv (https://www.npmjs.com/package/dotenv)
 // require('dotenv').config();
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "IRMI Learning",
   tagline: "Learning center for internal processes",
-  url: 'https://your-docusaurus-test-site.com',
+  url: "https://your-docusaurus-test-site.com",
+  plugins: [require.resolve("docusaurus-lunr-search")],
   customFields: {
     // Put your custom environment here
     first_key: "JimVALUEONE",
@@ -23,20 +24,18 @@ const config = {
   organizationName: "IRMI", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
 
-   
-
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // editUrl: 'https://https://github.com/jrtwheeler/IRMI_Doc_Site',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
@@ -53,13 +52,13 @@ const config = {
         },
         items: [
           {
-            "label": "Documentation",
-            "to": "docs"
+            label: "Documentation",
+            to: "docs",
           },
           {
-            href: 'https://irmi.zendesk.com/hc/en-us',
-            label: 'Zendesk',
-            position: 'right',
+            href: "https://irmi.zendesk.com/hc/en-us",
+            label: "Zendesk",
+            position: "right",
           },
         ],
       },
@@ -82,7 +81,7 @@ const config = {
                 href: "https://twitter.com/IRMIowl",
               },
             ],
-          }
+          },
           // Add another json object here to add another column
         ],
         copyright: `Copyright © 2000-${new Date().getFullYear()} International Risk Management Institute, Inc. (IRMI). All rights reserved.`,
