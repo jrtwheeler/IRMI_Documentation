@@ -11,7 +11,6 @@ const config = {
   title: "IRMI Learning",
   tagline: "Learning center for internal processes",
   url: "https://your-docusaurus-test-site.com",
-  plugins: [require.resolve("docusaurus-lunr-search")],
   customFields: {
     // Put your custom environment here
     first_key: "JimVALUEONE",
